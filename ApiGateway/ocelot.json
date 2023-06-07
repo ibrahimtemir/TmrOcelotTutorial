@@ -1,10 +1,22 @@
 {
   "Routes": [
     {
-      "UpstreamPathTemplate": "/api/Customer/GetAll",
+      "UpstreamPathTemplate": "/api/Customer",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/Customer/Create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/Customer",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Customer/GetAll",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -16,7 +28,7 @@
       "UpstreamPathTemplate": "/api/Customer/{id}",
       "UpstreamHttpMethod": [ "Get", "Delete" ],
       "DownstreamPathTemplate": "/api/Customer/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -28,7 +40,7 @@
       "UpstreamPathTemplate": "/api/Product",
       "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
       "DownstreamPathTemplate": "/api/Product",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -40,7 +52,7 @@
       "UpstreamPathTemplate": "/api/Product/{productId}",
       "UpstreamHttpMethod": [ "Get", "Delete" ],
       "DownstreamPathTemplate": "/api/Product/{productId}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -52,7 +64,7 @@
       "UpstreamPathTemplate": "/api/Order",
       "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
       "DownstreamPathTemplate": "/api/Order",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -64,7 +76,7 @@
       "UpstreamPathTemplate": "/api/Order/{orderId}",
       "UpstreamHttpMethod": [ "Get", "Delete" ],
       "DownstreamPathTemplate": "/api/Order/{orderId}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -74,6 +86,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:8001"
+    "BaseUrl": "http://localhost:8001"
   }
 }
