@@ -1,0 +1,12 @@
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\bin\Debug\net6.0\Core.deps.json
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\bin\Debug\net6.0\Core.dll
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\bin\Debug\net6.0\Core.pdb
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.dll
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\refint\Core.dll
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\Core.pdb
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\Core\obj\Debug\net6.0\ref\Core.dll

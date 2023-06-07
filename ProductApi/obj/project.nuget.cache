@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "khnlgsVVlXuMLL0YqOR2oTannN3XhFXbbsV6IR4qcyycntavmZeG2fX2tpyDJa2rloiTHvU4AC5Nf2xM4YcDNg==",
+  "success": true,
+  "projectFilePath": "C:\\İbrahim\\Projects\\TmrProjects\\TmrOcelotTutorial\\ProductApi\\ProductApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itemi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\itemi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\itemi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
