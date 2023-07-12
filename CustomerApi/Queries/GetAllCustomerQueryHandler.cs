@@ -8,7 +8,8 @@ namespace CustomerApi.Queries
     {
         public async Task<GetAllCustomerResponse> Handle(GetAllCustomerRequest request, CancellationToken cancellationToken)
         {
-            return new GetAllCustomerResponse();
+            Console.WriteLine("GetAll Customer");
+            return new GetAllCustomerResponse { Success = true };
         }
     }
 }

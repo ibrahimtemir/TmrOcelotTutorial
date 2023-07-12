@@ -22,3 +22,8 @@ C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\bin\Debug\net6.0\MediatR.dll
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\CustomerApi.csproj.CopyComplete
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\staticwebassets\msbuild.CustomerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\staticwebassets\msbuild.build.CustomerApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CustomerApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CustomerApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\CustomerApi\obj\Debug\net6.0\staticwebassets.pack.json
