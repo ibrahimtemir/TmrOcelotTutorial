@@ -7,7 +7,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "tmrocelottutorial/productapi",
+          "Host": "tmrocelottutorial/customerapi",
           "Port": 80
         }
       ]
