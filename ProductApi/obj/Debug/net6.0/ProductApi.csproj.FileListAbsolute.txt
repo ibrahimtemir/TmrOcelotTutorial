@@ -22,3 +22,8 @@ C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\r
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\ProductApi.pdb
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\ProductApi.genruntimeconfig.cache
 C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\ref\ProductApi.dll
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ProductApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProductApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProductApi.props
+C:\İbrahim\Projects\TmrProjects\TmrOcelotTutorial\ProductApi\obj\Debug\net6.0\staticwebassets.pack.json

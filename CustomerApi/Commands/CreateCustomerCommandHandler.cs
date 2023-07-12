@@ -8,7 +8,7 @@ namespace CustomerApi.Commands
     {
         public async Task<CreateCustomerResponse> Handle(CreateCustomerRequest request, CancellationToken cancellationToken)
         {
-            return new CreateCustomerResponse();
+            return new CreateCustomerResponse { Message = "Customer Created" };
         }
     }
 }

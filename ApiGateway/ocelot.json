@@ -7,8 +7,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "tmrocelottutorial/customerapi",
+          "Port": 80
         }
       ]
     },
@@ -19,8 +19,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
+          "Host": "tmrocelottutorial/productapi",
+          "Port": 80
         }
       ]
     },
@@ -57,30 +57,6 @@
         {
           "Host": "localhost",
           "Port": 8003
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/api/Order",
-      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
-      "DownstreamPathTemplate": "/api/Order",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 8004
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/api/Order/{orderId}",
-      "UpstreamHttpMethod": [ "Get", "Delete" ],
-      "DownstreamPathTemplate": "/api/Order/{orderId}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 8004
         }
       ]
     }
