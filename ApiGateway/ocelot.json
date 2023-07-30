@@ -1,25 +1,25 @@
 {
   "Routes": [
     {
-      "UpstreamPathTemplate": "/api/Customer",
+      "UpstreamPathTemplate": "/api/Customer/Create",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/Customer/Create",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "tmrocelottutorial/customerapi",
+          "Host": "customerapi",
           "Port": 80
         }
       ]
     },
     {
-      "UpstreamPathTemplate": "/api/Customer",
+      "UpstreamPathTemplate": "/api/Customer/GetAll",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/api/Customer/GetAll",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "tmrocelottutorial/productapi",
+          "Host": "customerapi",
           "Port": 80
         }
       ]
@@ -31,32 +31,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8002
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/api/Product",
-      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
-      "DownstreamPathTemplate": "/api/Product",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 8003
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/api/Product/{productId}",
-      "UpstreamHttpMethod": [ "Get", "Delete" ],
-      "DownstreamPathTemplate": "/api/Product/{productId}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 8003
+          "Host": "customerapi",
+          "Port": 80
         }
       ]
     }
