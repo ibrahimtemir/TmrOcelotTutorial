@@ -10,7 +10,14 @@
           "Host": "customerapi",
           "Port": 80
         }
-      ]
+      ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "UpstreamPathTemplate": "/api/Customer/GetAll",
@@ -22,7 +29,14 @@
           "Host": "customerapi",
           "Port": 80
         }
-      ]
+      ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "UpstreamPathTemplate": "/api/Customer/{id}",
@@ -34,10 +48,23 @@
           "Host": "customerapi",
           "Port": 80
         }
-      ]
+      ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:8001"
+    "BaseUrl": "http://localhost:8001",
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "Rate Limit Exceeded!!!",
+      "HttpStatusCode": 999,
+      "ClientIdHeader": "Tmr Ocelot Rate Limit"
+    }
   }
 }
