@@ -10,6 +10,8 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.Get
 
 var app = builder.Build();
 
+app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
