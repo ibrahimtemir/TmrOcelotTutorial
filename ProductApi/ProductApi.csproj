@@ -9,10 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
     <Folder Include="Queries\" />
-    <Folder Include="Requests\" />
-    <Folder Include="Responses\" />
   </ItemGroup>
 
   <ItemGroup>
