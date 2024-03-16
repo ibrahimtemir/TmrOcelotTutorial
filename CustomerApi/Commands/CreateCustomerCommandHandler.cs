@@ -20,6 +20,8 @@ namespace CustomerApi.Commands
 
         public async Task<CreateCustomerResponse> Handle(CreateCustomerRequest request, CancellationToken cancellationToken)
         {
+            Console.Write("create customer.....");
+
             var customer = new Customer
             {
                 Id = new Guid(),

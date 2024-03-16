@@ -9,7 +9,8 @@ namespace CustomerApi.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<Customer> builder)
         {
-            builder.Property(s => s.Id).HasDefaultValue(new Guid());
+            builder.HasKey(x => x.Id);
+            builder.Property(s => s.Id);
             builder.Property(s => s.Name).HasMaxLength(250);
             builder.Property(s => s.LastName).HasMaxLength(250);
             builder.Property(s => s.Email).HasMaxLength(250);
